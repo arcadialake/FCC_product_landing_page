@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 650px){
+  body {
+    flex-wrap: wrap;
+  }
+}
+
+header{
+  background: #333;
+  font-family: Montserrat, sans-serif;
+  position: relative;
+}
+
+#logo {
+  width: 200px;
+  padding: 10px;
+  margin: 0px;
+}
+
+.navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0px;
+}
+
+#nav-bar {
+  width: 1063px;
+  height:88px;
+  position: absolute;
+  left: 200px;
+  bottom: 0px;
+  background-color: #333;
+}
+
+.navbar ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.navbar li {
+  padding-top: 35px;
+}
+
+.nav-link {
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+body {
+  background-color: #fff
+}
+
+h2 {
+  color: #333;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+}
+
+main {
+  margin-top: 87px;
+  font-family: Montserrat, sans-serif;
+}
+
+#emailinput {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(https://lakridsbybulow.com/media/1647/adobestock_125376147.jpeg?width=1920);
+  background-repeat: no-repeat;
+}
+  #emailinput h2 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  input[type="email"] {
+    max-width: 275px;
+    width: 100%;
+    margin: 15px 0;
+    padding: 5px;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+  input[type="submit"] {
+    max-width: 250px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    padding: 5px;
+    font-family: Montserrat;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+    input[type="submit"]:hover {
+      text-shadow: 0.1em 0.1em 0.15em       #9c845f;
+}
+
+    input[type="submit"]:active {
+      border: 2px solid #9c845f;
+      color: #9c845f;
+      text-shadow: none;
+}
+
+.video h2 {
+  color: #333;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+#our-story {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+#sustainability {
+  padding-top: 10px;
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: columns;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.icon {
+  color: #9c845f;
+  padding: 5px;
+}
+
+.desc {
+  text-align: justify;
+}
+
+#recycle, #leaf, #interpreting, #trash {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+#the-favourites {
+  display: flex;
+  flex-direction: columns;
+  justify-content: space-around;
+}
+
+.headings {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+#A, #B, #C, #D {
+  border: 1px solid #dcdcdc;
+  margin: 10px;
+  padding: 5px;
+  width: 50%;
+}
+
+#A:hover, #B:hover, #C:hover, #D:hover {
+  box-shadow: 0.1em 0.1em 0.15em 0.1em #dcdcdc;
+}
+
+.jars {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
+.productimgdesc {
+  text-align: justify;
+  font-size: small;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #dcdcdc;
+  font-family: Montserrat, sans-serif;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer li {
+  padding-right: 10px;
+}
+
+footer a {
+  color: #333;
+}
+
+span {
+  font-size: small;
+  color: #333;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
